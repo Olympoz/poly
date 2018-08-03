@@ -1,0 +1,114 @@
+/*!
+Theme Name: Polypac-2
+Author: Agence Autrement
+Version: 1.0.0
+*/
+
+*,
+*:after,
+*:before {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+body{
+
+	margin: 0 auto !important;
+}
+
+.alignnone {
+	margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+.alignleft {
+	float:left;
+	margin: 5px 20px 20px 0;
+}
+a img.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+	margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+// Global
+@import "functions";
+@import "reset";
+@import "body";
+@import "mixins_fonts";
+@import "contact";
+@import "polypac_polantis";
+@import "mentions_legales";
+@import "grid";
+
+// Realisations
+
+@import "archive-real";
+@import "single-realisations";
+@import "responsive_single_real";
+
+// Produits
+
+@import "archive-produit";
+@import "single-produit";
+@import "responsive_archive_produit";
+@import "responsive_single_produit";
+
+// Slider
+
+@import "bx-slider";
+@import "bx-slider_single";
+@import "bx-slider_single_product";
+@import "bx-slider_single_actu";
+
+// Actu
+@import "archive-actu";
+@import "single-actu";
+@import "responsive_archive-actu";
+@import "responsive_single_actu";
+
+// Header/Footer
+
+@import "header";
+@import "footer";
+@import "responsive_header_footer";
+
+// Homepage
+@import "front_page";
+@import "responsive_front";
+
+// Qui somme nous
+@import "qui-sommes-nous";
+@import "responsive_qui-sommes-nous";
+
+// Innovations
+
+@import "innovations";
+@import "responsive_innovations";

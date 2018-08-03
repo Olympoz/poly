@@ -1,0 +1,145 @@
+@media screen and (max-width : 990px){
+
+  .second_row_who_color{
+
+    margin-top: 0px !important;
+
+  }
+
+  .second_row_who_left{
+
+    width: inherit !important;
+    float: inherit !important;
+
+  }
+
+  .second_row_who_left_container{
+
+    margin-right: 0px !important;
+  }
+
+  .second_row_who_right{
+
+    width: inherit !important;
+    float: inherit !important;
+  }
+}
+
+@media screen and (max-width : 768px){
+
+  .first_row_who_color{
+
+    height: inherit !important;
+    background-image: inherit !important;
+
+
+  }
+  .image_qui_sommes_nous_responsive{
+
+    display: block !important;
+  }
+
+  .first_row_who_left_container{
+
+    height: inherit !important;
+  }
+
+  .first_row_who_wrapper{
+
+    position: relative !important;
+  }
+
+  .first_row_who_left{
+
+    float: none !important;
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  .first_row_who_right{
+
+    float: none !important;
+    margin-left: 0px !important;
+    width: 100% !important;
+
+
+  }
+
+  .second_row_who_color{
+
+    margin-top: 0px !important;
+
+  }
+
+  .second_row_who_left{
+
+    width: inherit !important;
+  }
+
+  .second_row_who_left_container{
+
+    margin-right: 0px !important;
+    height: auto !important;
+
+  }
+
+  .third_row_who_wrapper{
+
+    margin-bottom: 0px !important;
+  }
+
+  .fourth_row_who_up_wrapper_1{
+
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .fourth_row_who_up_wrapper_2{
+
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .fourth_row_who_down_wrapper_1{
+
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+
+
+  }
+
+  .fourth_row_who_down_wrapper_2{
+
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+
+
+  }
+}
+
+// MOBILE
+
+@media screen and (max-width : 480px){
+ 
+  .first_row_who_color{
+
+    height: auto !important;
+    background-image: inherit !important;
+
+    .first_row_who_wrapper{
+
+      position: relative !important;
+    }
+
+
+  }
+
+  .third_row_who_wrapper{
+
+    margin-bottom: 0px !important;
+  }
+
+
+
+
+}

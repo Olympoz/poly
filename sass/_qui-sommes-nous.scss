@@ -1,0 +1,522 @@
+.first_row_who_color{
+
+  // background-image: url('../img/polypac_quisommesnous-02.png');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+
+  .image_qui_sommes_nous_responsive{
+
+    display: none;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .first_row_who_wrapper{
+
+    max-width: 1080px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    .first_row_who_left{
+
+      background-color: #e9eaeb;
+      width: 74.5%;
+      float: left;
+
+      .first_row_who_left_container{
+
+        padding: 30px;
+
+        .first_row_who_title{
+
+          color: $polyblue;
+          font-size: 3.6rem;
+          text-transform: uppercase;
+          font-weight: bold;
+
+        }
+
+        .first_row_who_content{
+
+          font-size: 1.8rem;
+          margin-top: 25px;
+
+          p{
+
+            align-self: center;
+
+          }
+        }
+      }
+    }
+
+    .first_row_who_right{
+
+      width: 24.8%;
+      float: left;
+      margin-left: 5px;
+
+      .first_row_who_right_wrapper{
+
+        height: 236px;
+        background-image: url('../img/background_contactus.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-color: white;
+
+        .first_row_who_right_container{
+
+          top: 50%;
+          transform: translateY(-50%);
+          position: relative;
+
+          .first_row_who_right_title{
+
+            color: $polyblue;
+            margin: 0 auto;
+            position: relative;
+            font-size: 1.95rem;
+            text-align: center;
+            margin-bottom: 10px;
+
+          }
+
+          .first_row_who_right_text{
+
+            cursor: pointer;
+            color: white;
+            text-transform: uppercase;
+            background-color: $polyblue;
+            font-size: 2rem;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+            width: max-content;
+            border: 1.3px solid transparent;
+            transition : 0.3s;
+            margin-left: 0px;
+            left: 50%;
+            margin-right: 30px;
+            transform: translateX(-50%);
+
+            &:hover{
+
+              color: $polyblue;
+              background-color: transparent;
+              border: 1.3px solid $polyblue;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//////////////////////////////////////////////////////////////////////////
+
+.second_row_who_color{
+
+  background-color: #ffffff;
+  position: relative;
+  max-width: 1900px;
+  margin-top: 50px !important;
+
+  .second_row_who_wrapper{
+
+    max-width: 1080px;
+
+    .second_row_who_left{
+
+      .second_row_who_left_container{
+
+
+        padding: 30px;
+        margin-right: 5px ;
+        background-color: $polyblue;
+        background-image: url('../img/second_who_img.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+
+        .second_row_who_title{
+
+          color: white;
+          font-size: 3.6rem;
+          text-transform: uppercase;
+          font-weight: bold;
+
+        }
+
+        .second_row_who_content{
+
+          color: white;
+          font-size: 1.6rem;
+          margin-top: 10px;
+
+        }
+      }
+    }
+
+    .second_row_who_right{
+
+      background-image: url('../img/second_row_who_echelle.png');
+      background-repeat: no-repeat;
+      background-position: 50% 37%;
+
+      .second_row_who_right_wrapper{
+
+        width: auto;
+
+        .second_row_who_right_container{
+
+          top: 50%;
+          transform: translateY(-50%);
+          position: relative;
+
+          .second_row_who_right_title{
+
+            color: white;
+            margin: 0 auto;
+            position: relative;
+            font-size: 1.95rem;
+            text-align: center;
+            margin-bottom: 10px;
+
+          }
+
+          .second_row_who_right_text{
+
+            cursor: pointer;
+            color: white;
+            text-transform: uppercase;
+            background-color: transparent;
+            font-size: 2rem;
+            padding: 20px 30px 20px 30px;
+            text-align: center;
+            position: relative;
+            max-width: 235px;
+            border: 1.3px solid white;
+            transition : 0.3s;
+            margin-left: 0px;
+            left: 50%;
+            margin-right: 30px;
+            transform: translateX(-50%);
+
+            &:hover{
+
+              color: $polyblue;
+              background-color: white;
+              border: 1.3px solid transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//////////////////////////////////////////////////////////////////////////
+
+.third_row_who_color{
+
+  background-color: #ffffff;
+  position: relative;
+  max-width: 1900px;
+
+  .third_row_who_wrapper{
+
+    height: auto;
+    max-width: 1080px;
+    background-color: #f3f3f3;
+    margin-bottom: 50px ;
+    padding-top: 25px;
+    padding-bottom:25px;
+    border: 2px solid transparent;
+
+      .third_row_who_bloc{
+
+        .third_row_who_bloc_wrapper{
+
+          padding: 30px;
+
+          .who_icon_wrapper{
+
+            height: 100px;
+            width: 100px;
+            background-color: $polyblue;
+            position: relative;
+            margin: 0 auto;
+
+            .third_row_who_bloc_icon_1{
+
+              position: absolute;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              left: 50%;
+              padding: 10px;
+              height: 100px;
+              width: 100px;
+              -webkit-mask: url("../img/logo_who_1.svg") no-repeat 50% 50%;
+              -webkit-mask-size: auto;
+
+            }
+
+            .third_row_who_bloc_icon_2{
+
+              position: absolute;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              left: 50%;
+              padding: 10px;
+              height: 100px;
+              width: 100px;
+              -webkit-mask: url("../img/logo_who_2.svg") no-repeat 50% 50%;
+              -webkit-mask-size: auto;
+
+            }
+
+            .third_row_who_bloc_icon_3{
+
+              position: absolute;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              left: 50%;
+              padding: 10px;
+              height: 100px;
+              width: 100px;
+              -webkit-mask: url("../img/logo_who_3.svg") no-repeat 50% 50%;
+              -webkit-mask-size: auto;
+
+            }
+
+            .third_row_who_bloc_icon_4{
+
+              position: absolute;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              left: 50%;
+              padding: 10px;
+              height: 100px;
+              width: 100px;
+              -webkit-mask: url("../img/logo_who_4.svg") no-repeat 50% 50%;
+              -webkit-mask-size: auto;
+
+            }
+
+            .third_row_who_bloc_icon_5{
+
+              position: absolute;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              left: 50%;
+              padding: 10px;
+              height: 100px;
+              width: 100px;
+              -webkit-mask: url("../img/logo_who_5.svg") no-repeat 50% 50%;
+              -webkit-mask-size: auto;
+
+            }
+
+            .third_row_who_bloc_icon_6{
+
+              position: absolute;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              left: 50%;
+              padding: 10px;
+              height: 100px;
+              width: 100px;
+              -webkit-mask: url("../img/logo_who_6.svg") no-repeat 50% 50%;
+              -webkit-mask-size: auto;
+
+            }
+
+            .third_row_who_bloc_icon_7{
+
+              position: absolute;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              left: 50%;
+              padding: 10px;
+              height: 100px;
+              width: 100px;
+              -webkit-mask: url("../img/logo_who_7.svg") no-repeat 50% 50%;
+              -webkit-mask-size: auto;
+
+            }
+
+            .third_row_who_bloc_icon_8{
+
+              position: absolute;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              left: 50%;
+              padding: 10px;
+              height: 100px;
+              width: 100px;
+              -webkit-mask: url("../img/logo_who_8.svg") no-repeat 50% 50%;
+              -webkit-mask-size: auto;
+
+            }
+
+            .who_icons{
+
+              background-color: white;
+
+
+            }
+
+            &:hover{
+
+              background-color: white;
+              border: 2px solid $polyblue;
+              transition:  0.3s ease-out;
+
+            }
+
+            &:hover .who_icons{
+
+              background-color: $polyblue;
+              transition:  0.3s ease-out;
+
+
+            }
+          }
+
+          .third_row_who_bloc_title{
+
+            text-transform: uppercase;
+            color: $polyblue;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.6rem;
+            margin-top: 10px;
+
+          }
+
+          .third_row_who_bloc_text{
+
+            margin-top: 10px;
+            display: -webkit-box;
+            font-size: 1.6rem;
+            text-align: center;
+            min-height: 120px;
+
+            p{
+
+              margin: 0 0 0px !important;
+            }
+          }
+        }
+      }
+  }
+}
+
+//////////////////////////////////////////////////////////////////////////
+
+.fourth_row_who_color{
+
+  background-color: #e9eaeb;
+  max-width: 1900px;
+  position: relative;
+  margin-top: 50px !important;
+
+  .fourth_row_who_title{
+
+    background-color: #e8e9ea ;
+    margin-top: 50px !important;
+
+    .fourth_row_who_title_1{
+
+      color: $polyblue;
+      background-color: white;
+      padding: 5px 20px 5px 20px;
+      font-size: 6.2rem;
+      width: max-content;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin: 0 auto;
+
+    }
+  }
+
+  .fourth_row_who_wrapper_1{
+
+    max-width: 1080px;
+
+    .fourth_row_who{
+
+      .fourth_row_who_up_wrapper_1{
+
+        background-color: $polyblue;
+        color: white;
+        padding: 30px;
+        margin-right: 2.5px;
+        margin-bottom: 2.5px;
+
+        p{
+
+          margin-top: 20px;
+          font-size: 1.7rem;
+        }
+      }
+
+      .fourth_row_who_up_wrapper_2{
+
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 2.5px;
+        margin-bottom: 2.5px;
+
+
+      }
+    }
+  }
+
+  .fourth_row_who_wrapper_2{
+
+
+    max-width: 1080px;
+    margin-bottom: 50px !important;
+
+    .fourth_row_who{
+
+      .fourth_row_who_down_wrapper_1{
+
+        min-height: 300px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 2.5px;
+        margin-top: 2.5px;
+
+      }
+
+      .fourth_row_who_down_wrapper_2{
+
+        min-height: 300px;
+        background-color: $polyblue;
+        color: white;
+        padding: 30px;
+        margin-left: 2.5px;
+        margin-top: 2.5px;
+
+        p{
+
+          margin-top: 20px;
+          font-size: 1.7rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,237 @@
+.polantis_overlay  {
+    background: none repeat scroll 0 0 #383838;
+    height: 100%;
+    left: 0;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000 !important;
+}
+
+.polantis-header {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: #4cbae2;
+    color: #FFF;
+    padding: 17px 25px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    text-align: center;
+}
+
+.polantis_form_container_main{
+    left: 35%;
+    position: fixed;
+    top: 10%;
+    width: 500px;
+    z-index: 1100 !important;
+    border-radius: 8px;
+}
+
+#polantis_close_form{
+    float: right;
+    padding: 2px;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    padding-top: 2px;
+}
+
+#polantis_close_form span{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #FFF;
+}
+
+.polantis-body{
+    padding: 25px;
+    padding-top: 35px;
+    background-color: #FFF;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.polantis-footer{
+    padding: 17px 25px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: #4cbae2;
+    color: #FFF;
+    font-family: inherit;
+    font-size: 16px;
+    text-align: right;
+}
+
+.polantisDownloadButton{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    /* border: 1px solid transparent; */
+    /* border-radius: 4px; */
+}
+
+.polantisDownloadButton, #polantis_mirroring_problem{
+    cursor:pointer;
+}
+
+#polantis_mirroring_problem{
+    line-height: 1.42857143;
+    padding: 6px 0px;
+    float: left;
+}
+
+.polantis-form-label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: right;
+    font-family: inherit;
+    font-size: 13px;
+    text-align: left;
+    width: 35%;
+    color: #000;
+    font-weight: normal;
+}
+
+.chekboxKaldewei{
+    display: inline-grid;
+    max-width: 100%;
+    margin-bottom: 5px;
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: right;
+    font-family: inherit;
+    font-size: 13px;
+    text-align: left;
+    width: 35%;
+    font-weight: normal;
+}
+
+  .polantis-form_row input:not([type='checkbox']), .polantis-form_row select{
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.polantis-form_row{
+    margin-bottom: 8px;
+}
+.polantis-form_row:last-child{
+    margin-top: 15px;
+}
+
+.polantis-btn-success {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: transparent;
+    border-color: #FFF;
+}
+
+#api_download_form_birthDate{
+    display: inline-block;
+}
+
+#polantis-logo{
+    width: 24px;
+    vertical-align: text-bottom;
+}
+
+#polantis_mirroringapi_download_form{
+    margin-bottom: 0px;
+}
+
+.polantis-object-block a{
+    text-decoration: none;
+}
+
+.polantisButton {
+    
+    text-align: center;
+}
+
+.polantis-object-block img{
+    max-height: 80px;
+    vertical-align: bottom;
+    display: none;
+}
+.polantis-object-block{
+    display: inline-block;
+}
+
+#powered-polantis{
+    display: block;
+    margin-left: auto;
+}
+
+.polantis-alert-success{
+    color: #00a65a;
+}
+
+.polantis-alert-success strong{
+    color: #008D4C;
+}
+
+#polantisObjectName{
+    font-size: 18px;
+    margin:5px 0px;
+}
+
+.required:after {
+    content: "*";
+}
+
+#polantis_mandatory_star{
+    font-size:12px;
+    margin-top:20px;
+}

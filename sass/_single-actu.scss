@@ -1,0 +1,412 @@
+.lalalaa{
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+}
+
+.first_row_single_actu{
+
+  max-width: 1080px;
+  margin-bottom: -50px !important;
+  position: relative;
+
+  .slider_single_actu{
+
+    height: 500px;
+
+    .slider_single_actu_image{
+
+      background-size: cover;
+      background-position: center center;
+      height: 100%;
+    }
+  }
+}
+
+///////////////////////////////////////////////////
+
+.cross_close_fixed{
+
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: $polyblue;
+  left: -55px;
+  top: 15px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-image: url('../img/cross_close_overlay.png');
+  cursor: pointer;
+
+}
+
+///////////////////////////////////////////////////
+
+.second_row_single_actu_color{
+
+  background-color: #E5E6E8;
+  overflow: hidden;
+
+  .second_row_single_actu{
+
+    padding-top: 50px;
+    max-width: 1080px;
+
+    .single_actu_second_row_left_bloc{
+
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      border-right: 5px solid white ;
+      min-height: 750px;
+
+      .single_actu_datetime{
+
+        color: $polyblue;
+        font-weight: 100;
+        font-size: 3em;
+        -webkit-font-smoothing : antialiased !important;
+
+      }
+
+      .single_actu_title{
+
+        color: $polyblue;
+        font-size: 4.2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+
+      }
+
+      .single_actu_content_1{
+
+        font-size: 1.6em;
+        font-weight: 200;
+        -webkit-font-smoothing : antialiased !important;
+        margin-top: 30px;
+
+      }
+
+      .single_actu_content_2{
+
+        font-size: 1.6em;
+        font-weight: 200;
+        -webkit-font-smoothing : antialiased !important;
+        margin-top: 30px;
+
+      }
+
+      .single_actu_media_wrapper{
+
+          width: 100%;
+          max-height: 500px;
+          position: relative;
+
+          .single_actu_image{
+
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            margin-top: 30px;
+            height: -webkit-fill-available;
+
+          }
+
+          .single_actu_video{
+
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            margin-top: 30px;
+            height: 100%;
+
+          }
+      }
+    }
+
+/////////////////////////////////////////////////////
+
+    .single_actu_second_row_right_bloc{
+
+      .single_actu_innovations{
+
+        padding: 5px;
+        background-color: white;
+        font-size: 1.07rem;
+        font-weight: bold;
+        width: max-content;
+        text-transform: uppercase;
+        margin-top: 10px;
+        margin-bottom: 80px;
+
+        ul{
+
+          margin-bottom: 0px !important;
+
+          padding-left: 0px !important;
+
+          li{
+
+            list-style: none;
+
+            a{
+
+              color: inherit;
+              text-decoration: none;
+              pointer-events: none;
+              cursor: default;
+            }
+          }
+        }
+
+      }
+
+      .single_actu_prev_wrapper{
+
+        a{
+
+          text-decoration: none;
+        }
+
+        .single_actu_prev{
+
+          height: 225px;
+          background-position: center center ;
+          background-repeat: no-repeat;
+          background-size: cover;
+          margin-left: 24px;
+          margin-bottom: 25px;
+          font-size: 2rem;
+
+          &:hover .single_actu_prev_title{
+
+            background-color: #f3f3f3;
+            padding-top: 15px;
+            transition: 0.3s;
+          }
+
+          .single_actu_prev_title{
+
+            top: 0;
+            height: auto;
+            padding: 10px;
+            background-color: white;
+            text-transform: uppercase;
+            color: $polyblue;
+            text-align: center;
+            transition: 0.3s;
+            font-size: 2rem;
+            font-weight: 500;
+
+          }
+        }
+      }
+
+      .single_actu_next_wrapper{
+
+        a{
+
+            text-decoration: none;
+
+        }
+
+        .single_actu_next{
+
+          height: 225px;
+          background-image: url('../img/single_actu_second_row_prev_next.jpg');
+          background-position: center center ;
+          background-repeat: no-repeat;
+          background-size: cover;
+          margin-left: 24px;
+          margin-bottom: 60px;
+
+          &:hover .single_actu_next_title{
+
+            background-color: #f3f3f3;
+            padding-top: 15px;
+            transition: 0.3s;
+          }
+
+          .single_actu_next_title{
+
+            top: 0;
+            height: auto;
+            padding: 10px;
+            background-color: white;
+            text-transform: uppercase;
+            color: $polyblue;
+            text-align: center;
+            transition: 0.3s;
+            font-size: 2rem;
+            font-weight: 500;
+
+          }
+        }
+      }
+
+      .single_actu_social_share{
+
+        .single_actu_social_share_text{
+
+          text-transform: uppercase;
+          font-size: 1.07rem;
+          margin-left: 24px;
+          font-weight: bold;
+
+        }
+
+        .single_actu_social_share_icons{
+
+          margin-left: 24px;
+          margin-top: 15px;
+          margin-bottom: 24px;
+
+          .single_actu_icons_wrapper{
+
+            border: 1px solid $polyblue;
+            display: inline-block;
+            cursor: pointer;
+
+            &:hover{
+
+              background-color: $polyblue;
+
+            }
+
+            &:hover .single_actu_icons{
+
+              background-color: white;
+              transform: rotate(360deg);
+              transition: 0.5s;
+
+            }
+
+            .single_actu_social_share_icons_1{
+
+              height: 40px;
+              width: 40px;
+              -webkit-mask: url(https://image.flaticon.com/icons/svg/34/34304.svg) no-repeat 50% 50%;
+              -webkit-mask-size: 50%;
+
+            }
+
+            .single_actu_social_share_icons_2{
+
+              height: 40px;
+              width: 40px;
+              -webkit-mask: url(https://image.flaticon.com/icons/svg/174/174876.svg) no-repeat 50% 50%;
+              -webkit-mask-size: 50%;
+
+            }
+
+            .single_actu_social_share_icons_3{
+
+              height: 40px;
+              width: 40px;
+              -webkit-mask: url(https://image.flaticon.com/icons/svg/25/25325.svg) no-repeat 50% 50%;
+              -webkit-mask-size: 50%;
+
+            }
+
+            .single_actu_icons{
+
+              background-color: $polyblue;
+
+            }
+          }
+        }
+      }
+
+      .line_single_actu_before{
+        position: relative;
+
+        &:before{
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          border-top: 5px solid white;
+          width: 1500px;
+
+        }
+      }
+
+      .single_actu_more{
+
+        cursor: pointer;
+        color: white;
+        text-transform: uppercase;
+        background-color: $polyblue;
+        border: 1.3px solid $polyblue;
+        font-size: 1.3em;
+        padding: 20px 30px 20px 30px;
+        position: relative;
+        transition: 0.3s;
+        margin-top: 70px;
+        margin-left: 20px;
+        // margin-bottom: 30px;
+        font-weight: bold;
+        text-align: center;
+
+
+        &:hover{
+
+          background-color: #E5E6E8;
+          color: $polyblue;
+          border: 1.3px solid $polyblue;
+        }
+
+        .overlay_open{
+
+          text-decoration: none;
+          color: inherit;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
+
+////////////////////////////////////////////////////
+
+.third_row_single_actu{
+
+  height: 300px;
+  background-image: url("../img/bandeau_fiche_realisation-01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+    .third_row_single_actu_title{
+
+      cursor: pointer;
+      position: relative;
+      text-align: center;
+      color: white;
+      font-size: 3.03rem;
+      top: 50%;
+      padding: 20px 30px 20px 30px;
+      transform: translateY(-50%);
+      text-transform: uppercase;
+      border: 1px solid white;
+      max-width: 550px;
+      margin: 0 auto;
+      font-weight: bold;
+      transition: 0.3s;
+      text-shadow: #000 1px 0 10px;
+      background-color: rgba(0,0,0,0.2);
+
+      &:hover{
+
+        border: 1px solid transparent;
+        background-color: $polyblue;
+
+      }
+
+  }
+}

@@ -1,0 +1,181 @@
+
+@media screen and  (min-width : 1024px) and  (max-height : 800px) {
+
+  .home .global_home_content .actu_feed .actu_display ul li .home_actu_img {
+    display: none;
+  }
+
+
+  .home {
+    .global_home_content {
+      .actu_feed {
+        .actu_display {
+          ul {
+            li {
+              min-height: 104px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.home .global_home_content .actu_feed .actu_display ul li {
+  color: red;
+  min-height: 140px;
+
+}
+
+@media screen and (max-width : 768px){
+
+  .newsletter{
+
+    padding: 20px !important;
+  }
+
+  .wrapper_logo_newsletter{
+
+    height: 54px !important;
+  }
+
+  .logo_newsletter{
+
+    background-size: 40% !important;
+    height: 100% !important;
+  }
+
+  .first_text_newsletter{
+
+    max-width: inherit !important;
+  }
+
+  .second_text_newsletter{
+
+    max-width: inherit !important;
+    font-size: 2.5rem !important;
+    line-height: inherit !important;
+    margin-bottom: none !important;
+
+  }
+
+  .sib-email-area{
+
+    width: 100% !important;
+  }
+
+  .sib-default-btn{
+
+    width: 30% !important;
+  }
+
+  .legend_newsletter{
+
+    font-size: 1.2rem;
+  }
+
+}
+
+
+@media screen and (max-width : 768px){
+
+  .global_home_content{
+
+    .bx-viewport{
+
+      height: 450px !important;
+    }
+  }
+
+  .actu_feed{
+
+    position: inherit !important;
+  }
+
+
+  .actu_display{
+
+    ul{
+
+      .actu_display_list{
+
+        float: none !important;
+        width: 100% !important;
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+        padding: 20px !important;
+        margin-top: 2px !important;
+
+        ul {
+          li {
+            .home_actu_img {
+              max-width: 100%;
+            }
+          }
+        }
+
+
+        .actu_abs{
+
+          bottom: 20px !important;
+          right: 20px !important;
+        }
+      }
+    }
+  }
+
+
+  .home .global_home_content .actu_feed .actu_display ul li .home_actu_img {
+    max-width: 100%;
+  }
+
+    .newsletter{
+
+      padding: 20px !important;
+    }
+
+    .wrapper_logo_newsletter{
+
+      height: 54px !important;
+    }
+
+
+    .logo_newsletter{
+
+      background-size: 40% !important;
+      height: 100% !important;
+    }
+
+    .first_text_newsletter{
+
+      max-width: inherit !important;
+    }
+
+    .second_text_newsletter{
+
+      max-width: inherit !important;
+      font-size: 2.5rem !important;
+      line-height: inherit !important;
+      margin-bottom: none !important;
+
+    }
+
+    .sib-email-area{
+
+      width: 100% !important;
+    }
+
+    .sib-default-btn{
+
+      width: 30% !important;
+    }
+
+    .legend_newsletter{
+
+      font-size: 1.2rem;
+    }
+
+
+
+
+}

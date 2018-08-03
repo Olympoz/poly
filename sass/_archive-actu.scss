@@ -1,0 +1,289 @@
+
+.archive_actu{
+
+  .archive_actu_first_row{
+
+    background-color: #e5e6e8;
+
+    .archive_actu_first_row_first_floor{
+
+      display: flex;
+      margin-left: 130px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      .first_row_first_floor_title{
+
+        color: $polyblue;
+        font-weight: 100;
+        -webkit-font-smoothing: antialiased;
+        text-transform: uppercase;
+        padding: 5px;
+            text-transform: uppercase;
+    color: #153172;
+    font-size: 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    padding-top: 0;
+    font-family: 'Sanuk-Light',sans-serif;
+
+      }
+
+      .filter_style{
+
+        height: fit-content;
+        border: 1px solid transparent;
+        display: inline-block;
+        margin-left: 7px;
+        font-size: 10px;
+        color: #fff !important;
+        background-color: #ccc8cc;
+        padding: 4px 6px 3px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        letter-spacing: 0.5px;
+        font-weight: 500;
+        cursor: pointer;
+
+
+        &:hover{
+
+          background-color: $polyblue;
+          @include transition(0.3s) ;
+
+        }
+      }
+    }
+
+    .archive_actu_first_row_second_floor{
+
+      display: flex;
+
+      max-width: 857px;
+      margin-right: 20px;
+
+      .first_row_second_floor_search_left{
+
+        border: 1px solid white;
+        cursor: pointer;
+        background-color: #f2f2f2;
+
+        &:hover{
+
+          background-color: $polyblue;
+          @include transition(0.3s);
+          border: 1px solid transparent;
+        }
+
+        &:hover .first_row_second_floor_search_svg_color{
+
+          background-color: white;
+          @include transition(0.3s);
+        }
+
+        .first_row_second_floor_search_svg{
+
+          -webkit-mask: url(https://image.flaticon.com/icons/svg/149/149309.svg) no-repeat 50% 50%;
+          -webkit-mask-size: 50%;
+          height: 33px;
+          width: 33px;
+
+        }
+
+        .first_row_second_floor_search_svg_color{
+
+          background-color: $polyblue;
+        }
+      }
+
+      .first_row_second_floor_search{
+
+        width: 100% !important;
+
+      }
+    }
+  }
+
+  #search_bar{
+
+    height: 35px;
+    width: 500px;
+    background-color: #f1f1f1;
+    padding-left: 15px;
+    margin-left: 15px;
+    color: $polyblue;
+    border: 2px solid white;
+
+    &:focus {
+
+      border: 2px solid $polyblue;
+    }
+
+    &::placeholder{
+
+      color: #b6b6b8;
+
+    }
+  }
+
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#scroll-area {
+
+    overflow:hidden;
+    margin-top: 3px;
+
+    .scrollable {
+        width:-moz-max-content;
+         width: -webkit-max-content;
+        position:relative;
+
+
+
+        .archive_actu_second_row_first_floor{
+
+          margin-bottom: 0px;
+          padding-left: 0px !important;
+          height: 67vh;
+
+          .archive_actu_items{
+
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin-right: 5px;
+            width: 600px;
+            height: 22vh;
+            list-style-type: none;
+            position: relative;
+            border-bottom: 5px solid #ffffff;
+
+            &:last-child{
+
+              margin-right: 0px !important;
+
+
+            }
+
+            &:nth-of-type(3n+3){
+
+              border-bottom: 0px solid #ffffff;
+
+
+            }
+
+            .archive_actu_image{
+
+              background-repeat: no-repeat;
+              background-position: center center;
+              background-size: cover;
+              height: 120px;
+
+            }
+
+            .archive_actu_items_wrapper{
+
+              position: relative;
+
+              .archive_actu_items_date{
+
+                color: $polyblue;
+                font-weight: lighter;
+                -webkit-font-smoothing: antialiased;
+                font-size: 1.1em;
+                text-transform: none;
+
+              }
+
+              .archive_actu_items_title{
+
+                color: $polyblue;
+                text-transform: uppercase;
+                font-size: 1.2em;
+                font-weight: bold;
+                padding-top: 5px;
+
+              }
+
+              .archive_actu_items_content{
+
+                position: relative;
+                width: -webkit-fill-available;
+                width: -moz-available;
+
+                .archive_actu_items_content_text{
+
+                  max-width: 85%;
+                  overflow: hidden;
+                  display: -webkit-box;
+
+
+                  p{
+
+                    margin: 0 0 0px !important;
+                  }
+                }
+              }
+            }
+
+            .actu_abs{
+
+              position: absolute;
+              bottom: 10px;
+              right: 10px;
+
+
+              .archive_actu_items_more{
+
+                border: 1px solid $polyblue;
+                cursor: pointer;
+                margin-left: 15px;
+                width: max-content;
+                float: right;
+                bottom: 0px;
+
+                &:hover{
+
+                  background-color: $polyblue;
+                }
+
+
+                &:hover .archive_actu_color_svg{
+
+                  background-color: white;
+
+                }
+
+                &:hover .archive_actu_items_more_svg{
+
+                  transform: rotate(360deg);
+                  @include transition(0.5s);
+                }
+
+                .archive_actu_items_more_svg{
+
+                  -webkit-mask: url(https://image.flaticon.com/icons/svg/19/19777.svg) no-repeat 50% 50%;
+                  -webkit-mask-size: 70%;
+                  height: 30px;
+                  width: 30px;
+
+                }
+
+                .archive_actu_color_svg{
+
+                  background-color: $polyblue;
+
+                }
+               }
+             }
+          }
+        }
+    }
+}

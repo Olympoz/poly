@@ -1,0 +1,152 @@
+.post-type-archive-produit{
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+  .container_produit{
+
+    margin: -3px;
+    height: calc(100vh - (101px + 35px - 6px));
+
+
+    .produit-row1{
+
+      background-color: #FFF;
+      overflow: hidden;
+      height: 100%;
+
+
+      .produit_contactus{
+
+
+        position: relative;
+        height: 33%;
+
+        .produit_contactus_inner{
+
+          width: 100%;
+          height: 100%;
+        }
+
+        .produit_contactus_wrapper{
+
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          position: absolute;
+
+          .produit_contactus_text1{
+
+            color: $polyblue;
+            margin: 0 auto;
+            position: relative;
+            font-size: 1.95rem;
+            text-align: center;
+            margin-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+
+          .produit_contactus_text2{
+
+            cursor: pointer;
+            color: $polyblue;
+            text-transform: uppercase;
+            background-color: white;
+            border: 1.3px solid $polyblue;
+            font-size: 2rem;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+            width: max-content;
+            margin: 0 auto;
+            transition: 1s;
+
+            &:hover{
+
+              background-color: $polyblue;
+              color: white;
+              border: 1.3px solid transparent;
+
+            }
+          }
+        }
+      }
+
+        .produit_item{
+
+
+          color: #FFF;
+          margin: 0px;
+          transition: 1s;
+          overflow: hidden;
+          height: 33%;
+
+          padding: 3px !important;
+
+          &_inner {
+            display: block;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center ;
+            height: 100%;
+            position: relative;
+          }
+
+          &:hover .produit_more{
+
+            min-height: 80px;
+
+          }
+
+          .produit_more{
+
+            bottom: 0;
+            left: 0;
+            right: 0;
+            position: absolute;
+            min-height: 52px;
+            padding: 4px 10px 4px 20px;
+            transition: 0.3s;
+
+            .produit_title_1{
+
+              font-weight: 300;
+              color: white;
+              font-size: 2.1rem;
+              margin-bottom: -7px;
+
+
+            }
+
+            .produit_title_2{
+
+              font-weight: 700;
+              color: white;
+              font-size: 1.5rem;
+
+            }
+         }
+      }
+    }
+  }
+
+  .contact_call_to{
+
+    display: none;
+
+  }
+
+  footer{
+
+    height: auto;
+  }
+
+
+}

@@ -1,0 +1,402 @@
+.home{
+
+  // font-family: $font_gl !important;
+
+  header{
+    position: absolute;
+    background-color: transparent;
+    border-bottom: none;
+    transition: all 0.2s;
+    &:hover {
+      background-color: rgba(255,255,255,0.5);
+    border-bottom: 1px solid #FFF;
+
+    }
+    .menu-right-header{
+      .left-menu-header{
+        border-left: 1px solid #FFF;
+        .contact-header{
+          border-bottom: 1px solid #FFF;
+        }
+      }
+    }
+    .right-menu-header{
+      border-left: 1px solid #FFF;
+      .lang_fr{
+        border-bottom: 1px solid #FFF;
+      }
+      .lang_en{
+        border-bottom: 1px solid #FFF;
+      }
+    }
+  }
+
+  .global_home_content{
+    position: relative;
+
+    .actu_feed{
+      position: absolute;
+      bottom: -20px;
+      width: 100%;
+
+      .container_feed{
+
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+
+      .actu_display{
+        background-color: rgba(255,255,255,0.8);
+        height: min-content;
+
+        ul{
+          padding-left: 0;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          list-style-type: none;
+          overflow: hidden;
+          margin-bottom: 0px !important;
+
+          li{
+            width: 31%;
+            margin-left: 1%;
+            margin-right: 1%;
+            padding: 10px;
+            float: left;
+            background-color: #fff;
+            color: $polyblue;
+            position: relative;
+            min-height: 269px;
+
+            .home_actu_img{
+
+              max-width: 500px;
+              height: 150px;
+              margin-bottom: 6px;
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+
+            .date{
+              margin-bottom: 0;
+              font-size: 1.2rem;
+            }
+
+            .titre{
+              text-transform: uppercase;
+              font-weight: 900;
+              font-size: 1.5rem;
+              line-height: 1.1;
+              margin: 2px 0;
+            }
+
+            .excerpt{
+              color: #000;
+              max-width: 80%;
+              font-size: 1.25rem;
+              line-height: 1.2;
+              p {
+                margin-bottom: 0;
+              }
+            }
+
+            .actu_abs{
+
+              position: absolute;
+              bottom: 10px;
+              right: 10px;
+
+
+              .archive_actu_items_more{
+
+                border: 1px solid $polyblue;
+                cursor: pointer;
+                margin-left: 15px;
+                width: max-content;
+                float: right;
+                bottom: 0px;
+
+                &:hover{
+
+                  background-color: $polyblue;
+                }
+
+
+                &:hover .archive_actu_color_svg{
+
+                  background-color: white;
+
+                }
+
+                &:hover .archive_actu_items_more_svg{
+
+                  transform: rotate(360deg);
+                  @include transition(0.5s);
+                }
+
+                .archive_actu_items_more_svg{
+
+                  -webkit-mask: url(https://image.flaticon.com/icons/svg/19/19777.svg) no-repeat 50% 50%;
+                  -webkit-mask-size: 70%;
+                  height: 30px;
+                  width: 30px;
+
+                }
+
+                .archive_actu_color_svg{
+
+                  background-color: $polyblue;
+
+                }
+               }
+             }
+          }
+        }
+      }
+    }
+  }
+
+  .full-image{
+    width: 100%;
+    height: calc(100vh - 135px);
+    padding-top: 120px;
+    background-size: cover;
+    background-position: center center;
+
+    .container_full_image{
+      height: 100%;
+      max-width: 1000px;
+      margin: 0 auto;
+
+      .produit_une{
+        height: 65%;
+        position: relative;
+
+        .produit_name{
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+
+          .blue_on_white{
+            text-transform: uppercase;
+            line-height: 1;
+            font-weight: 900;
+            font-size: 5rem;
+            color: $polyblue;
+            background-color: rgba(255,255,255,0.8);
+            padding: 13px 15px 0;
+            margin-bottom: 8px;
+            display: inline-block;
+          }
+
+          .white_on_blue{
+            font-style: italic;
+            font-weight: 900;
+            font-size: 3.2rem;
+            color: #FFF;
+            background-color: $polyblue;
+            display: inline;
+            padding: 5px 10px 0;
+
+          }
+        }
+      }
+    }
+  }
+
+  .contact_call_to{
+
+  	background-color: $polyblue;
+  	text-align: center;
+    height: 100px;
+
+    .container_actus{
+
+      margin: 0 auto;
+      max-width: 1000px;
+
+      &:hover .all_actus{
+
+        color: $polyblue;
+        background-color: rgba(255,255,255,1);
+        transition: 0.3s;
+      }
+    }
+
+  	.all_actus{
+  		background-color: rgba(255,255,255,0.8);
+  		padding: 10px;
+  		color: #FFF;
+  		text-transform: uppercase;
+      font-size: 1.75em;
+      display: none;
+  	}
+
+  	.btn_container{
+  		top: 50%;
+  		transform: translateY(-50%);
+  		position: relative;
+
+  		.wrapper_contacter{
+
+  			color: inherit;
+
+
+  			a{
+  				color: #FFF;
+  				border: 1px solid #FFF;
+  				text-transform: uppercase;
+  				font-size: 2rem;
+  				font-weight: lighter;
+          padding: 10px;
+  				text-decoration: none;
+  				-webkit-font-smoothing: antialiased;
+
+  				&:hover{
+  					background-color: #fff;
+  					color: $polyblue;
+  					transition: 0.3s;
+  					border: 1px solid transparent;
+  				}
+  			}
+  	  }
+  	}
+  }
+
+  .all_actus_home{
+
+    height: 4.5vh;
+  }
+
+  .overlay_newsletter{
+
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1000;
+  }
+
+  .newsletter{
+
+    height: auto;
+    max-width: 850px;
+    background-color: rgba(255,255,255, 0.9);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2.5%;
+    transition: 0.3s;
+    z-index: 100000;
+    box-shadow: 2px 2px 25px black;
+
+    .first_row_newsletter{
+
+      .close_newsletter{
+
+        position: relative;
+        height: 40px;
+        width: 40px;
+        background-color: $polyblue;
+        float: right;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-image: url('../img/cross_close_overlay.png');
+        cursor: pointer;
+
+      }
+
+      .wrapper_logo_newsletter{
+
+        height: 108px;
+        width: 250px;
+
+        .logo_newsletter{
+          height: 100%;
+          width: 100%;
+          background-image: url("../img/logo_polypac.png");
+          background-size: 80%;
+          background-repeat: no-repeat;
+          background-position: top left;
+
+        }
+      }
+    }
+
+    .second_row_newsletter{
+
+      margin-top: 10px;
+
+      .first_text_newsletter{
+
+        max-width: 60%;
+        font-size: 1.8em;
+        font-weight: 100;
+        color: $polyblue;
+        -webkit-font-smoothing: antialiased;
+        margin-bottom: 10px;
+      }
+
+      .second_text_newsletter{
+
+        max-width: 65%;
+        color: $polyblue;
+        font-weight: bold;
+        font-size: 3em;
+        text-transform: uppercase;
+        line-height: 50px;
+        margin-bottom: 10px;
+
+      }
+    }
+
+    .sib-email-area{
+
+      margin-bottom: 10px !important;
+
+      .sib-email-area{
+
+        border: 2px solid $polyblue !important;
+        color: $polyblue !important;
+        padding: 10px !important;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+        text-align: left !important;
+        width: 79.5% !important;
+        background-color: rgba(255, 255, 255, 0.8) !important;
+        font-size: 1.4rem;
+      }
+
+      .sib-default-btn{
+
+        border: 2px solid $polyblue !important;
+        color: #fff !important;
+        padding: 10px !important;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+        text-align: center !important;
+        background-color: $polyblue !important;
+        text-transform: uppercase !important;
+        font-weight: lighter !important;
+        width: 19.5% !important;
+        float: right !important;
+        font-size: 1.4rem;
+        cursor: pointer !important;
+      }
+    }
+
+    .legend_newsletter{
+
+      color: $polyblue;
+      -webkit-font-smoothing: antialiased;
+      margin-bottom: 15px;
+      font-size: 1.4rem;
+    }
+  }
+}

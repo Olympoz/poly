@@ -1,0 +1,1403 @@
+
+.first_row_inno{
+
+  background-image: url('../img/cover_innovations.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  height: 600px;
+  // max-width: 1900px;
+  position: relative;
+
+  .first_row_inno_wrapper{
+
+    max-width: 1080px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    .first_row_inno_left{
+
+      background-color: $polyblue;
+      width: 74.5%;
+      float: left;
+
+      .first_row_inno_left_container{
+
+        padding: 20px;
+        // height: 300px;
+
+        .first_row_inno_title{
+
+          color: white;
+          font-size: 3.6rem;
+          text-transform: uppercase;
+          font-weight: bold;
+
+        }
+
+        .first_row_inno_content{
+
+          font-size: 1.6rem;
+          margin-top: 10px;
+
+          p{
+
+            align-self: center;
+            color: white;
+          }
+        }
+      }
+    }
+
+    .first_row_inno_right{
+
+      width: 24.8%;
+      float: left;
+      margin-left: 5px;
+
+
+      .first_row_inno_right_wrapper{
+
+        // height: 300px;
+        background-image: url('../img/background_contactus.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-color: white;
+
+        .first_row_inno_right_container{
+
+          top: 50%;
+          transform: translateY(-50%);
+          position: relative;
+
+          .first_row_inno_right_title{
+
+            color: $polyblue;
+            margin: 0 auto;
+            position: relative;
+            font-size: 1.95rem;
+            text-align: center;
+            margin-bottom: 10px;
+
+          }
+
+          .first_row_inno_right_text{
+
+            cursor: pointer;
+            color: white;
+            text-transform: uppercase;
+            background-color: $polyblue;
+            font-size: 2rem;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+            width: max-content;
+
+            border: 1.3px solid transparent;
+            transition : 0.3s;
+            margin-left: 0px;
+            left: 50%;
+            margin-right: 30px;
+            transform: translateX(-50%);
+
+            &:hover{
+
+              color: $polyblue;
+              background-color: transparent;
+              border: 1.3px solid $polyblue;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
+.second_row_inno{
+
+  background-color: #f1f2f2;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  .second_row_inno_title{
+
+    color: $polyblue;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+  }
+
+  .second_row_inno_finitions{
+
+    display: flex;
+    padding-right: 20px;
+
+
+    .second_row_inno_wrapper_1{
+
+      width: 50%;
+      padding-bottom: 20px;
+
+
+      .second_row_inno_protection{
+
+        display: flex;
+
+        &:hover{
+
+          background-color: $polyblue;
+        }
+
+        &:hover .second_row_inno_title_1 {
+
+          color: white !important;
+        }
+
+        &:hover .inno_icons {
+
+          background-color: white !important;
+        }
+
+        &:hover .second_row_inno_text_1{
+
+          color: white !important;
+        }
+
+
+        .second_row_inno_logo_1{
+
+          width: 30%;
+
+
+
+          .inno_icon_wrapper_1{
+
+              position: relative;
+              height: 100px;
+
+
+            .inno_icon_1{
+
+              position: absolute;
+              top: 60%;
+              transform: translate(-50%, -50%);
+              left: 50%;
+              padding: 10px;
+              height: 100px;
+              width: 140px;
+              -webkit-mask: url("../img/logo_inno_1.svg") no-repeat 50% 50%;
+              -webkit-mask-size: auto;
+
+            }
+
+            .inno_icons{
+
+              background-color: $polyblue;
+
+
+            }
+          }
+        }
+
+        .second_row_inno_container_1{
+
+          width: 75%;
+          padding: 20px 0px 20px 0px;
+
+          .second_row_inno_title_1{
+
+            color: $polyblue;
+            font-size: 1.6rem;
+            font-weight: bold;
+            text-transform: uppercase;
+
+
+          }
+
+          .second_row_inno_text_1{
+
+            max-width: 400px;
+            font-size: 1.6rem;
+
+          }
+        }
+      }
+
+
+////////////////////////////////////////////////////////////////////////////////////
+
+      .second_row_inno_protection{
+
+        display: flex ;
+
+        &:hover{
+
+          background-color: $polyblue;
+        }
+
+        &:hover .second_row_inno_title_2 {
+
+          color: white !important;
+        }
+
+        &:hover .inno_icons {
+
+          background-color: white !important;
+        }
+
+        &:hover .second_row_inno_text_2{
+
+          color: white !important;
+        }
+
+
+        .second_row_inno_logo_2{
+
+          width: 30%;
+
+          .inno_icon_wrapper_2{
+
+              position: relative;
+              height: 100px;
+
+
+            .inno_icon_2{
+
+              position: absolute;
+              top: 60%;
+              transform: translate(-50%, -50%);
+              left: 50%;
+              padding: 10px;
+              height: 100px;
+              width: 140px;
+              -webkit-mask: url("../img/logo_inno_2.svg") no-repeat 50% 50%;
+              -webkit-mask-size: auto;
+
+            }
+
+            .inno_icons{
+
+              background-color: $polyblue;
+
+
+            }
+          }
+        }
+
+        .second_row_inno_container_2{
+
+          width: 75%;
+          padding: 20px 0px 20px 0px;
+
+          .second_row_inno_title_2{
+
+            color: $polyblue;
+            font-size: 1.6rem;
+            font-weight: bold;
+            text-transform: uppercase;
+
+
+          }
+
+          .second_row_inno_text_2{
+
+            max-width: 400px;
+            font-size: 1.6rem;
+
+          }
+        }
+      }
+
+      //////////////////////////////////////////////////////////////////////////
+
+
+        .second_row_inno_protection{
+
+          display: flex ;
+
+          &:hover{
+
+            background-color: $polyblue;
+          }
+
+          &:hover .second_row_inno_title_3 {
+
+            color: white !important;
+          }
+
+          &:hover .inno_icons {
+
+            background-color: white !important;
+          }
+
+          &:hover .second_row_inno_text_3{
+
+            color: white !important;
+          }
+
+
+          .second_row_inno_logo_3{
+
+            width: 30%;
+
+
+            .inno_icon_wrapper_3{
+
+                position: relative;
+                height: 100px;
+
+
+              .inno_icon_3{
+
+                position: absolute;
+                top: 60%;
+                transform: translate(-50%, -50%);
+                left: 50%;
+                padding: 10px;
+                height: 100px;
+                width: 140px;
+                -webkit-mask: url("../img/logo_inno_3.svg") no-repeat 50% 50%;
+                -webkit-mask-size: auto;
+
+              }
+
+              .inno_icons{
+
+                background-color: $polyblue;
+
+
+              }
+            }
+          }
+
+          .second_row_inno_container_3{
+
+            width: 75%;
+            padding: 20px 0px 20px 0px;
+
+            .second_row_inno_title_3{
+
+              color: $polyblue;
+              font-size: 1.6rem;
+              font-weight: bold;
+              text-transform: uppercase;
+
+
+            }
+
+            .second_row_inno_text_3{
+
+              max-width: 400px;
+              font-size: 1.6rem;
+
+            }
+          }
+        }
+
+        //////////////////////////////////////////////////////////////////////////
+
+        .second_row_inno_protection{
+
+          display: flex ;
+
+          &:hover{
+
+            background-color: $polyblue;
+          }
+
+          &:hover .second_row_inno_title_4 {
+
+            color: white !important;
+          }
+
+          &:hover .inno_icons {
+
+            background-color: white !important;
+          }
+
+          &:hover .second_row_inno_text_4{
+
+            color: white !important;
+          }
+
+
+          .second_row_inno_logo_4{
+
+            width: 30%;
+
+            .inno_icon_wrapper_4{
+
+                position: relative;
+                height: 100px;
+
+
+              .inno_icon_4{
+
+                position: absolute;
+                top: 60%;
+                transform: translate(-50%, -50%);
+                left: 50%;
+                padding: 10px;
+                height: 100px;
+                width: 140px;
+                -webkit-mask: url("../img/logo_inno_4.svg") no-repeat 50% 50%;
+                -webkit-mask-size: auto;
+
+              }
+
+              .inno_icons{
+
+                background-color: $polyblue;
+
+
+              }
+            }
+          }
+
+          .second_row_inno_container_4{
+
+            width: 75%;
+            padding: 20px 0px 20px 0px;
+
+            .second_row_inno_title_4{
+
+              color: $polyblue;
+              font-size: 1.6rem;
+              font-weight: bold;
+              text-transform: uppercase;
+
+
+            }
+
+            .second_row_inno_text_4{
+
+              max-width: 400px;
+              font-size: 1.6rem;
+
+            }
+          }
+        }
+
+        //////////////////////////////////////////////////////////////////////////
+
+        .second_row_inno_protection{
+
+          display: flex ;
+
+          &:hover{
+
+            background-color: $polyblue;
+          }
+
+          &:hover .second_row_inno_title_5 {
+
+            color: white !important;
+          }
+
+          &:hover .inno_icons {
+
+            background-color: white !important;
+          }
+
+          &:hover .second_row_inno_text_5{
+
+            color: white !important;
+          }
+
+
+          .second_row_inno_logo_5{
+
+            width: 30%;
+
+
+
+            .inno_icon_wrapper_5{
+
+                position: relative;
+                height: 100px;
+
+
+              .inno_icon_5{
+
+                position: absolute;
+                top: 60%;
+                transform: translate(-50%, -50%);
+                left: 50%;
+                padding: 10px;
+                height: 100px;
+                width: 140px;
+                -webkit-mask: url("../img/logo_inno_5.svg") no-repeat 50% 50%;
+                -webkit-mask-size: auto;
+
+              }
+
+              .inno_icons{
+
+                background-color: $polyblue;
+
+
+              }
+            }
+          }
+
+          .second_row_inno_container_5{
+
+            width: 75%;
+            padding: 20px 0px 20px 0px;
+
+            .second_row_inno_title_5{
+
+              color: $polyblue;
+              font-size: 1.6em;
+              font-weight: bold;
+              text-transform: uppercase;
+
+            }
+
+            .second_row_inno_text_5{
+
+              max-width: 400px;
+              font-size: 1.6rem;
+
+            }
+          }
+        }
+
+        //////////////////////////////////////////////////////////////////////////
+
+    }
+
+    .second_row_inno_wrapper_2{
+
+      position: relative;
+      width: 50%;
+      padding: 0px 20px 20px 0px;
+      margin-bottom: 20px;
+
+
+      .second_row_inno_image_1{
+
+        display: block
+      }
+
+      .second_row_inno_image_2{
+
+        display: none;
+
+      }
+
+      .second_row_inno_image_3{
+
+        display: none;
+
+      }
+
+      .second_row_inno_image_4{
+
+        display: none;
+
+      }
+
+      .second_row_inno_image_5{
+
+        display: none;
+
+      }
+
+      #inno_image{
+
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        height: -webkit-fill-available;
+        height: -moz-available;
+        height: fill-available;
+        width: 100%;
+        border: 5px solid transparent;
+        height: 100%;
+
+        .second_row_inno_image_descriptif_wrapper{
+
+          position: absolute;
+          bottom: 15px;
+          left: 15px;
+
+          .second_row_inno_image_descriptif_1{
+
+            font-size: 1.9rem;
+            font-weight: lighter ;
+            color: white;
+            text-transform: uppercase;
+            text-shadow: #000 1px 0 10px;
+
+          }
+
+          .second_row_inno_image_descriptif_2{
+
+            font-size: 1.9rem;
+            font-weight: bold;
+            color: white;
+            text-shadow: #000 1px 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
+.third_row_inno{
+
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 100px;
+
+  .third_row_inno_title_container{
+
+    background-color: $polyblue;
+    padding: 40px 20px 40px 20px;
+
+    .third_row_inno_title{
+
+      font-weight: bold;
+      color: white;
+      text-transform: uppercase;
+      font-size: 3.6rem;
+    }
+
+    .third_row_inno_description{
+
+      color: white;
+      margin-top: 5px;
+      font-size: 2rem;
+    }
+  }
+
+  .inno_gamme_wrapper{
+
+    max-width: 1080px;
+    background-color: #e6e7e8;
+    margin-bottom: -2px;
+  }
+
+  .inno_gamme_title{
+
+    text-transform: uppercase;
+    color: $polyblue;
+    font-weight: bold;
+    font-size: 3.6rem;
+    padding: 10px 10px 10px 20px;
+
+  }
+
+  .inno_gamme_container{
+
+    max-width: 1260px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: start;
+
+  }
+
+  #inno_gamme_image{
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    height: 100px;
+    width: 100px;
+    border-width: 2px 2px 0px 2px;
+    border-color: #f3f3f3;
+    border-style: solid;
+    margin: 0 auto;
+  }
+
+  .inno_gamme_text{
+
+    color: $polyblue;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    border-width: 2px 2px 2px 2px;
+    border-color: #f3f3f3;
+    border-style: solid;
+    padding: 5px;
+  }
+
+  .inno_gamme_color{
+
+
+    cursor: pointer;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    &:focus{
+
+    color: red;
+
+    }
+
+    &:active{
+
+      color: yellow;
+    }
+
+    &:hover .inno_gamme_text{
+
+      background-color: $polyblue;
+      color: white;
+      transition: 0.3s;
+      border-color: $polyblue;
+    }
+
+
+    img{
+
+      height: 100px;
+      width: 100px;
+    }
+  }
+
+  .inno_gamme_color_no_click{
+
+    cursor: inherit;
+  }
+
+  //////////////////////////////////////////////////////////
+
+  .popup_overlay_inno{
+
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    visibility: hidden;
+    background-color: rgba(255, 255, 255, 0.6);
+
+  }
+
+  .inno_gamme_hover{
+
+    overflow: hidden;
+
+    .inno_gamme_popup{
+
+        transition: 0.5s;
+        opacity: 1;
+        z-index: 500;
+        position: relative;
+        border: 1px solid $polyblue;
+
+      .inno_popup_title_wrapper{
+
+        max-width: 1080px;
+        background-color: $polyblue;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+
+        .inno_popup_invisible{
+
+          visibility : hidden;
+        }
+
+        .inno_popup_title_text{
+
+          color: white;
+          font-size: 3.6rem;
+          text-transform: uppercase;
+          font-weight: bold;
+
+        }
+
+        .inno_popup_close{
+
+          background-image: url('../img/cross_close_overlay.png');
+          width: 30px;
+          height: 39px;
+          padding: 5px;
+          cursor: pointer;
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: 100%;
+        }
+      }
+
+      .inno_popup_content_wrapper{
+
+        max-width: 1080px;
+
+        height: 500px;
+
+        .inno_popup_image_container{
+
+          float: left;
+          width: 60%;
+          background-color: white;
+
+          .inno_popup_image{
+
+            width: 100%;
+            height: 500px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 75%;
+          }
+        }
+
+        .inno_popup_content_right{
+
+          width: 40%;
+          float: left;
+
+          .inno_content_right_1{
+
+            height: 300px;
+            width: 100%;
+            background-color: #e6e7e8;
+            padding: 30px;
+
+            .inno_content_right_title{
+
+              text-transform: uppercase;
+              color: $polyblue;
+              font-size: 3.6rem;
+              font-weight: bold;
+              margin-top: 10px;
+
+            }
+
+            .inno_content_right_text{
+
+              color: $polyblue;
+              margin-top: 5px;
+              font-size: 1.6rem;
+            }
+
+            .text-sans-polantis {
+              text-align: center;
+              font-weight: 600;
+              line-height: 1.2;
+              font-size: 18px;
+          }
+
+
+            .inno_content_right_link_wrapper{
+
+              position: relative;
+
+              .inno_content_right_link{
+
+                cursor: pointer;
+                color: $polyblue;
+                text-transform: uppercase;
+                background-color: transparent;
+                font-size: 1.75rem;
+                padding: 15px 25px 15px 25px;
+                text-align: center;
+                position: relative;
+                max-width: 257px;
+                border: 1px solid $polyblue;
+                transition: 0.3s;
+                margin-left: 0px;
+                left: 50%;
+                margin-right: 30px;
+                transform: translateX(-50%);
+                margin-top: 20px;
+
+                &_polantis {
+                  margin-top: 30px;
+
+
+                }
+
+                &:hover{
+
+                  color: white;
+                  background-color: $polyblue;
+                  border: 1px solid $polyblue;
+
+                }
+              }
+            }
+          }
+
+          .inno_content_right_2{
+
+            height: 200px;
+            width: 100%;
+            position: relative;
+            background-color: #f1f2f2;
+
+            .inno_content_right_2_link{
+
+              cursor: pointer;
+              color: white ;
+              text-transform: uppercase;
+              background-color: $polyblue;
+              font-size: 1.75rem;
+              padding: 15px 25px 15px 25px;
+              text-align: center;
+              position: relative;
+              max-width: 264px;
+              border: 1px solid $polyblue;
+              transition: 0.3s;
+              margin: 0 auto;
+              top: 50%;
+              transform: translateY(-50%);
+
+              &:hover{
+
+                color: $polyblue;
+                border: 1px solid $polyblue;
+                background-color: transparent;
+              }
+
+              a{
+
+                text-decoration: none !important;
+                color: inherit;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#classique{
+  margin-top: -593px;
+  &.open{
+    margin-top: 0px;
+  }
+  &.close{
+
+    margin-top: -593px;
+  }
+}
+
+#pastels{
+  margin-top: -593px;
+  &.open{
+    margin-top: 0px;
+  }
+  &.close{
+
+    margin-top: -593px;
+  }
+}
+
+#toniques{
+  margin-top: -593px;
+  &.open{
+    margin-top: 0px;
+  }
+  &.close{
+
+    margin-top: -593px;
+  }
+}
+
+#nacree{
+  margin-top: -593px;
+  &.open{
+    margin-top: 0px;
+  }
+  &.close{
+
+    margin-top: -593px;
+  }
+}
+
+#opaques{
+  margin-top: -593px;
+  &.open{
+    margin-top: 0px;
+  }
+  &.close{
+
+    margin-top: -593px;
+  }
+}
+
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+
+.fourth_row_inno{
+
+  max-width: 1080px;
+  background-color: $polyblue;
+
+  .fourth_row_inno_container{
+
+    padding: 30px 30px 30px 30px;
+    overflow: hidden;
+    background-image: url('../img/fourth_row_inno_img.png');
+    background-position: 93% 50%;
+    background-repeat: no-repeat;
+    background-size: 46%;
+
+    .fourth_row_inno_wrapper_left{
+
+      width: 50%;
+      float: left;
+      padding: 10px;
+
+
+      .fourth_row_inno_title{
+
+        color: white;
+        font-size: 3.6rem;
+        font-weight: bold;
+        text-transform: uppercase;
+
+      }
+
+      .fourth_row_inno_description{
+
+        color: white;
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 1.6rem;
+
+      }
+
+      .fourth_row_inno_consulter{
+
+        cursor: pointer;
+        color: white;
+        text-transform: uppercase;
+        font-size: 2rem;
+        padding: 15px 15px 15px 15px;
+        position: relative;
+        max-width: fit-content;
+        max-width: -moz-fit-content;
+        max-width: -webkit-fit-content;
+        border: 1.3px solid white;
+        transition : 0.3s;
+        margin-top: 15px;
+
+        &:hover{
+
+          color: $polyblue;
+          background-color: white;
+          border: 1.3px solid $polyblue;
+        }
+      }
+    }
+
+    .fourth_row_inno_wrapper_right{
+
+      width: 50%;
+      float: right;
+      padding: 10px;
+
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+
+.fifth_row_inno{
+
+  max-width: 1080px;
+  background-color: #e6e7e8;
+
+  .fifth_row_inno_container{
+
+    padding: 30px 30px 30px 30px;
+    overflow: hidden;
+    background-image: url('../img/nuancier_polypac.png');
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+
+    .fifth_row_inno_wrapper_left{
+
+      width: 50%;
+      float: left;
+      padding: 10px;
+
+    }
+
+    .fifth_row_inno_wrapper_right{
+
+      width: 50%;
+      float: right;
+      padding: 10px;
+
+
+      .fifth_row_inno_title{
+
+        color: $polyblue;
+        font-size: 3.6rem;
+        font-weight: bold;
+        text-transform: uppercase;
+
+
+      }
+
+      .fifth_row_inno_description{
+
+        color: $polyblue;
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 1.6rem;
+
+
+      }
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+
+.sixth_row_inno{
+
+  max-width: 1080px;
+  background-color: #e6e7e8;
+  margin-top: 50px !important;
+
+  .sixth_row_inno_container{
+
+    padding: 30px 30px 30px 30px;
+    overflow: hidden;
+    background-image: url('../img/plaque-bicolore.png');
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: 32%;
+
+    .sixth_row_inno_wrapper_left{
+
+      width: 50%;
+      float: left;
+      padding: 10px;
+
+      .sixth_row_inno_title{
+
+        color: $polyblue;
+        font-size: 3.6rem;
+        font-weight: bold;
+        text-transform: uppercase;
+
+      }
+
+      .sixth_row_inno_description{
+
+        color: $polyblue;
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 1.6rem;
+
+      }
+
+      .sixth_row_inno_consulter{
+
+        cursor: pointer;
+        color: $polyblue;
+        text-transform: uppercase;
+        font-size: 2rem;
+        padding: 15px 15px 15px 15px;
+        position: relative;
+        max-width: fit-content;
+        max-width: -moz-fit-content;
+        max-width: -webkit-fit-content;
+        border: 1.3px solid $polyblue;
+        transition : 0.3s;
+        margin-top: 15px;
+
+        &:hover{
+
+          color: white;
+          background-color: $polyblue;
+          border: 1.3px solid transparent;
+        }
+      }
+    }
+
+    .sixth_row_inno_wrapper_right{
+
+      width: 50%;
+      float: right;
+      padding: 10px;
+
+
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+
+.fifth_row_inno{
+
+  max-width: 1080px;
+  background-color: #e6e7e8;
+
+  .fifth_row_inno_container{
+
+    padding: 30px 30px 30px 30px;
+    overflow: hidden;
+    background-image: url('../img/nuancier_polypac.png');
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+
+    .fifth_row_inno_wrapper_left{
+
+      width: 50%;
+      float: left;
+      padding: 10px;
+
+    }
+
+    .fifth_row_inno_wrapper_right{
+
+      width: 50%;
+      float: right;
+      padding: 10px;
+
+
+      .fifth_row_inno_title{
+
+        color: $polyblue;
+        font-size: 3.6rem;
+        font-weight: bold;
+        text-transform: uppercase;
+
+
+      }
+
+      .fifth_row_inno_description{
+
+        color: $polyblue;
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 1.6rem;
+
+
+      }
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+
+.seventh_row_inno{
+
+  max-width: 1080px;
+  background-color: $polyblue;
+  margin-bottom: 50px !important;
+
+  .seventh_row_inno_container{
+
+    padding: 30px 30px 30px 30px;
+    overflow: hidden;
+    background-image: url('../img/seventh_row_innovations.png');
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 25%;
+
+    .seventh_row_inno_wrapper_left{
+
+      width: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 10px;
+      position: relative;
+
+      .seventh_row_inno_title{
+
+        color: white;
+        font-size: 3.6rem;
+        font-weight: bold;
+        text-transform: uppercase;
+
+      }
+
+      .seventh_row_inno_description{
+
+        color: white;
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 1.6rem;
+
+      }
+
+      .seventh_row_inno_consulter{
+
+        cursor: pointer;
+        color: $polyblue;
+        text-transform: uppercase;
+        font-size: 2rem;
+        padding: 15px 15px 15px 15px;
+        position: relative;
+        max-width: fit-content;
+        max-width: -moz-fit-content;
+        max-width: -webkit-fit-content;
+        border: 1.3px solid $polyblue;
+        transition : 0.3s;
+        margin-top: 15px;
+
+        &:hover{
+
+          color: white;
+          background-color: $polyblue;
+          border: 1.3px solid transparent;
+        }
+      }
+    }
+
+    .seventh_row_inno_wrapper_right{
+
+      width: 50%;
+      float: right;
+      padding: 10px;
+
+
+    }
+  }
+}

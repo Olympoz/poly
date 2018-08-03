@@ -1,0 +1,356 @@
+.single-realisations{
+
+  overflow-x: hidden;
+
+  ////////// SLIDER
+
+.container_slider_real{
+
+  margin: 0 auto;
+  max-width: 1080px;
+  position: relative;
+
+  .cross_close_fixed{
+
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: $polyblue;
+    left: -55px;
+    top: 15px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-image: url('../img/cross_close_overlay.png');
+    cursor: pointer;
+
+  }
+
+  .slider_produit{
+    height: 640px;
+
+    .item_slider_produit{
+      height: 580px;
+
+      .item_slider_produit_image{
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 580px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+  ////////// DETAILS
+
+  .details{
+    background-color: #E6E7E9;
+    margin-top: -35px;
+
+    .container_test{
+      //overflow: hidden;
+      padding: 20px !important;
+      max-width: 1080px !important;
+      margin: 0 auto;
+
+      .gauche_content_details{
+        border-right: 5px solid #FFF;
+        padding-right: 25px;
+        width: 65%;
+        float: left;
+        padding-top: 100px;
+        padding-bottom: 25px;
+        margin-bottom: -20px;
+
+        .ville{
+          text-transform: uppercase;
+
+          font-size: 3.02rem;
+          color: $polyblue;
+        }
+
+        .lieu{
+          color: $polyblue;
+          font-weight: bold;
+          font-size: 4.17rem;
+          margin-bottom: 25px;
+        }
+
+        .split_details{
+          overflow: hidden;
+
+          .left{
+            float: left;
+            width: 50%;
+
+            div{
+              margin-bottom: 10px;
+              font-size: 2.1rem;
+            }
+
+            span{
+              font-weight: 700;
+              text-transform: uppercase;
+              margin-right: 10px;
+              font-size: 1.6rem;
+            }
+          }
+
+          .right{
+            float: left;
+            width: 50%;
+
+            .descr{
+              text-align: justify;
+
+              p{
+
+                font-size: 1.6rem;
+
+              }
+            }
+          }
+        }
+      }
+
+      .droite_content_details{
+        width: 35%;
+        float: left;
+        padding-top: 36px;
+
+        .tags{
+
+          ul{
+            padding-left: 0;
+            margin-bottom: 20px;
+
+            li{
+              list-style-type: none;
+              background-color: #fff;
+              display: inline-block;
+              padding: 2px;
+              margin-bottom: 2px;
+              font-size: 1.07rem;
+              font-weight: bold;
+            }
+          }
+        }
+
+        .single_actu_social_share{
+
+          .single_actu_social_share_text{
+
+            text-transform: uppercase;
+            font-size: 1.07rem;
+            margin-left: 20px;
+            font-weight: bold;
+
+          }
+
+          .single_actu_social_share_icons{
+
+            margin-left: 20px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+
+            .single_actu_icons_wrapper{
+
+              border: 1px solid $polyblue;
+              display: inline-block;
+              cursor: pointer;
+
+              &:hover{
+
+                background-color: $polyblue;
+
+              }
+
+              &:hover .single_actu_icons{
+
+                background-color: white;
+                transform: rotate(360deg);
+                transition: 0.5s;
+
+              }
+
+              .single_actu_social_share_icons_1{
+
+                height: 40px;
+                width: 40px;
+                -webkit-mask: url(https://image.flaticon.com/icons/svg/34/34304.svg) no-repeat 50% 50%;
+                -webkit-mask-size: 50%;
+
+              }
+
+              .single_actu_social_share_icons_2{
+
+                height: 40px;
+                width: 40px;
+                -webkit-mask: url(https://image.flaticon.com/icons/svg/174/174876.svg) no-repeat 50% 50%;
+                -webkit-mask-size: 50%;
+
+              }
+
+              .single_actu_social_share_icons_3{
+
+                height: 40px;
+                width: 40px;
+                -webkit-mask: url(https://image.flaticon.com/icons/svg/25/25325.svg) no-repeat 50% 50%;
+                -webkit-mask-size: 50%;
+
+              }
+
+              .single_actu_icons{
+
+                background-color: $polyblue;
+
+              }
+            }
+          }
+        }
+
+        .line_single_actu_before{
+          position: relative;
+
+            &:before{
+              content: '';
+              position: absolute;
+              top: 0;
+              left: 0;
+              border-top: 5px solid white;
+              width: 1500px;
+
+            }
+         }
+
+
+        .btn_produit{
+          margin-top: 45px;
+          padding-left: 20px;
+          text-align: right;
+          a{
+            background-color: $polyblue;
+            padding: 15px 20px;
+            color: #FFF !important;
+            text-transform: uppercase;
+            width: 100%;
+            display: block;
+            text-align: center;
+            margin-right: 0;
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+
+  ////// GMAP
+  .gmap_real{
+    margin-bottom: 50px;
+
+    .container_gmap{
+      display: none;
+
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+  }
+
+  #map_2{
+
+    width: 100%;
+    height: 320px;
+  }
+
+  ///// OTHER
+
+  .other_things{
+    margin-bottom: 50px;
+
+    .container_things{
+      overflow: hidden;
+      max-width: 1080px;
+      margin: 0 auto;
+
+      .tier_other{
+        width: 32%;
+        float: left;
+        height: 275px;
+        background-color: #E5E5E5;
+
+        &_map {
+          display: none;
+        }
+        &_similary {
+
+          background-image: url(http://polypac.dev/wp-content/uploads/2018/02/16473516_1099884810139086_532219275865929678_n.jpg);
+          background-size: cover;
+
+          &_title {
+            padding: 10px;
+            font-size: 2.1rem;
+            background-color: #E5E5E5;
+            padding: 9px 0 1px;
+            text-align: center;
+            line-height: 1.2;
+
+          }
+          &_img {
+
+
+          }
+
+        }
+
+        &:nth-of-type(2){
+          margin-left: 2%;
+          margin-right: 2%
+        }
+      }
+    }
+  }
+
+  /////////////////// Bandeau
+
+  .bandeau_row_real{
+
+    margin-top: 50px !important;
+    // max-width: 1900px;
+    height: 250px;
+    background-image: url('../img/bandeau_fiche_realisation-01.png') ;
+    background-repeat: no-repeat;
+    background-size: 101%;
+    background-position: center center;
+
+      .bandeau_row_title{
+
+        cursor: pointer;
+        position: relative;
+        text-align: center;
+        color: white;
+        font-size: 3.03rem;
+        top: 50%;
+        padding: 20px 30px 20px 30px;
+        transform: translateY(-50%);
+        text-transform: uppercase;
+        border: 1px solid white;
+        width: max-content;
+        margin: 0 auto;
+        font-weight: bold;
+        transition: 0.3s;
+        text-shadow: #000 1px 0 10px;
+        background-color: rgba(0,0,0,0.2);
+
+        &:hover{
+
+          border: 1px solid transparent;
+          background-color: $polyblue;
+
+
+        }
+     }
+  }
+}

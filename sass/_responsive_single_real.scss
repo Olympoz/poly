@@ -1,0 +1,74 @@
+@media screen and (max-width : 1300px){
+
+  .item_slider_produit{
+
+    height: 500px !important;
+  }
+}
+
+@media screen and (max-width : 768px){
+
+  .details{
+
+    margin-top: inherit !important;
+  }
+
+  .gauche_content_details{
+
+    border: inherit !important;
+    width: 100% !important;
+    float: inherit !important;
+    padding-right: inherit !important;
+    padding-top: 20px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .split_details{
+
+    .left{
+
+      float: inherit !important;
+      width: 100% !important;
+    }
+
+    .right{
+
+      float: inherit !important;
+      width: 100% !important;
+    }
+  }
+
+  .droite_content_details{
+
+    width: 100% !important;
+    float: inherit !important;
+    padding-top: inherit !important;
+
+    .single_actu_social_share{
+
+      width: 100%;
+
+      .single_actu_social_share{
+
+        text-align: center;
+      }
+    }
+
+    .btn_produit{
+
+      padding-left: inherit !important;
+      width: max-content !important;
+      margin-top: inherit !important;
+      text-align: inherit !important;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .bandeau_row_title{
+
+    max-width: 90%;
+    font-size: 2.5rem !important;
+  }
+}
